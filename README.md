@@ -2,6 +2,7 @@
 
 ## Example usage
 
+```
 module "instance1" {
   source = "./modules/foobar"
   name    = "instance1"
@@ -20,3 +21,4 @@ module "instance3" {
   name  = "instance3"
   depends_list = [module.instance2.depend_on]
 }
+```
