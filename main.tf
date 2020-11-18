@@ -1,7 +1,3 @@
-# terraform-dependency
-
-## Example usage
-
 module "instance1" {
   source = "./modules/foobar"
   name    = "instance1"
